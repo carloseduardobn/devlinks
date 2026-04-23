@@ -60,11 +60,6 @@ body * {
   border-radius: 20px;
 }
 
-#container p{
-    color: var(--text-color);
-    margin-top: 120px;
-}
-
 /* perfil do usuário */
 
 #profile {
@@ -186,4 +181,21 @@ ul li a:hover {
 .icons a:hover {
   background: var(--bg-color);
   transform: translateY(-5px);
+}
+
+footer p{
+    color: var(--text-color);
+    margin-top: 110px;
+}
+
+@media screen and (max-width: 480px) {
+  #container{
+    margin-top: 0px;
+    width: 95%;
+  }
+
+  footer p{
+    color: var(--text-color);
+    margin-top: 25px;
+  }
 }
